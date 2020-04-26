@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+}
+/*main style*/
+.container {
+  font-family: sans-serif;
+}
+
+/*header style*/
+.navbar {
+  text-transform: uppercase;
+  display: flex;
+  font-weight: bold;
+  float: right;
+  padding: 30px 20px 0 20px;
+  letter-spacing: 0.1em;
+}
+
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+
+.header {
+  background-color: #b0b3b8;
+  height: 90px;
+}
+
+.wopard{
+  padding: 30px 20px 0 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.wopard a{
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+/*header 2 style*/
+.header2 {
+  display: flex;
+  background-color: white;
+  height: 70px;
+  justify-content: space-between;
+}
+
+/*
+.navbar2 {
+  text-transform: uppercase;
+  display: flex;
+  font-weight: lighter;
+  padding: 20px 10px;
+  float: right;
+}
+*/
+
+.navbar2 {
+  text-transform: uppercase;
+  display: flex;
+  font-weight: bold;
+  float: right;
+  padding: 20px 20px 0 10px;
+}
+
+.navbar2 a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.navbar2 a:hover {
+  color: red;
+  text-align: center;
+}
+
+.logo img{
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo a{
+  display: inline;
+}
+
+#brand{
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+/*content style*/
+.content {
+  background-color: dimGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5px;
+  position: relative;
+}
+
+.subtitle{
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.post img{
+  height: 340px;
+  width: 100%;
+  padding: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*footer style*/
+.footer{
+background-color: #2f2f2f;
+height: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.footer-navbar{
+  display: flex;
+  padding-top: 40px;
+}
+
+.footer-navbar a{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-navbar a:hover {
+  color: black;
+}
+
+.tnc {
+  color: white;
+  padding-top: 60px;
+  font-size: 10px;
+  padding-left: 40px;
+}
