@@ -111,8 +111,30 @@
 
 .subtitle{
   text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   text-align: center;
+  padding:  0 150px 0 150px;
+}
 
+.post .subtitle{
+  color: transparent;
+  font-weight: 600px;
+  transition: 1s;
+}
+
+.post:hover .subtitle{
+  color: white;
+  font-weight: 600px;
+}
+
+.post{
+  position: relative;
 }
 
 .post img{
@@ -122,6 +144,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.post:hover img{
+  transition: 1s;
+  filter: brightness(10%);
 }
 
 /*footer style*/
